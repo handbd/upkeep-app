@@ -1,5 +1,14 @@
+import { Box } from "@mui/material";
+import Header from "../../components/header";
+
 const UserForm = () => {
-    return <div>UserForm</div>
-}
+  return (
+  <Box m="20px">
+    <Box display="flex" justifyContent="space-between" alignItems="center">
+      <Header title="USER FORM" subtitle="Create a user profile!" />
+    </Box>
+  </Box>
+  );
+};
 
 export default UserForm;

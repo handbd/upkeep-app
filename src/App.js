@@ -6,7 +6,7 @@ import Sidebar from "./pages/global/sidebar";
 import Home from "./pages/home";
 import Inventory from "./pages/inventory";
 import MaintenanceTask from "./pages/maintenanceTask";
-import Calendar from "./pages/calendar";
+import Calendar from "./pages/calendar/calendar";
 import Rooms from "./pages/rooms";
 import Admin from "./pages/admin";
 import UserForm from "./pages/userForm";

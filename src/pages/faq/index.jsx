@@ -1,5 +1,14 @@
+import { Box } from "@mui/material";
+import Header from "../../components/header";
+
 const FAQ = () => {
-    return <div>FAQ</div>
-}
+  return (
+  <Box m="20px">
+    <Box display="flex" justifyContent="space-between" alignItems="center">
+      <Header title="FAQ" subtitle="Most Common Questions!" />
+    </Box>
+  </Box>
+  );
+};
 
 export default FAQ;
