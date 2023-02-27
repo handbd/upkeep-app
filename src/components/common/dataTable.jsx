@@ -12,7 +12,7 @@ const DataTable = ({
             <DataGrid
             rows={rows}
             columns={columns}
-            //loading={loading}
+             //loading={loading}
             sx={sx}
             />
         );
