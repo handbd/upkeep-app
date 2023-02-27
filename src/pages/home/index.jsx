@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import Header from "../../components/header";
+import Header from "../../components/common/header";
 
 const Home = () => {
   return (
@@ -7,6 +7,8 @@ const Home = () => {
     <Box display="flex" justifyContent="space-between" alignItems="center">
       <Header title="HOME" subtitle="Customize your Dashboard!" />
     </Box>
+
+      
   </Box>
   );
 };
